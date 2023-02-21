@@ -1,0 +1,697 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 810234900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "PaginationSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59728700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user moves to Practices header dropdown",
+            "match": {
+              "location": "PaginationSteps.userMovesToHeaderDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312724400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Frontend Testing header dropdown option",
+            "match": {
+              "location": "PaginationSteps.userClicksOnHeaderDropdownOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4646900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 287950900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on \"Pagination\" card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaginationSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4282300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1954947600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaginationSteps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate the main content of the Pagination Page",
+        "description": "",
+        "id": "pagination-functionality;validate-the-main-content-of-the-pagination-page",
+        "after": [
+          {
+            "result": {
+              "duration": 664858400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18927400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see \"Pagination\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32316100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see \"World City Populations 2022\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"World City Populations 2022\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36171400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see \"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\" paragraph",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeParagraph(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 733723500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "PaginationSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59294300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user moves to Practices header dropdown",
+            "match": {
+              "location": "PaginationSteps.userMovesToHeaderDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 363579000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Frontend Testing header dropdown option",
+            "match": {
+              "location": "PaginationSteps.userClicksOnHeaderDropdownOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3956800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 344698900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on \"Pagination\" card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaginationSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4181900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1169055400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaginationSteps.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the Pagination Page Next/Previous buttons",
+        "description": "",
+        "id": "pagination-functionality;validate-the-pagination-page-next/previous-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 642788500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18104700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should see \"Previous\" button is disabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Previous\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeButtonIsDisabled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35098300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see \"Next\" button is enabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeButtonIsEnabled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76258700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on Next button",
+            "match": {
+              "location": "PaginationSteps.userClicksOnButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57663700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should see \"Previous\" button is enabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Previous\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeButtonIsEnabled(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 541655600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on Next button till it becomes disabled",
+            "match": {
+              "location": "PaginationSteps.userClicksOnButtonTillItBecomesDisabled()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19815400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should see \"Previous\" button is enabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Previous\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeButtonIsEnabled(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31002200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should see \"Next\" button is disabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next\"",
+                  "offset": 16
+                }
+              ],
+              "location": "PaginationSteps.userShouldSeeButtonIsDisabled(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 829062100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "PaginationSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54207700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user moves to Practices header dropdown",
+            "match": {
+              "location": "PaginationSteps.userMovesToHeaderDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315876400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Frontend Testing header dropdown option",
+            "match": {
+              "location": "PaginationSteps.userClicksOnHeaderDropdownOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5789900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311621000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on \"Pagination\" card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaginationSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4250700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PaginationSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1230450200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaginationSteps.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validate the Pagination Page cities content",
+        "description": "",
+        "id": "pagination-functionality;validate-the-pagination-page-cities-content",
+        "after": [
+          {
+            "result": {
+              "duration": 644813300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457153600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "PaginationSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Tokyo",
+                  "Country: Japan",
+                  "Population: 37,435,191"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202722800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "PaginationSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Delhi",
+                  "Country: India",
+                  "Population: 29,399,141"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175944700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "PaginationSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Shangai",
+                  "Country: China",
+                  "Population: 26,317,104"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183954200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "PaginationSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Sao Paulo",
+                  "Country: Brasil",
+                  "Population: 21,846,507"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226805000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "PaginationSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Mexico City",
+                  "Country: Mexico",
+                  "Population: 21,671,908"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Pagination functionality",
+    "description": "",
+    "id": "pagination-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/pagination.feature",
+    "tags": []
+  }
+]
