@@ -8,6 +8,7 @@ import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import pages.TechGlobalBasePage;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalPaginationPage;
@@ -15,12 +16,14 @@ import utilities.Driver;
 
 public class PaginationSteps {
     WebDriver driver;
+    Actions actions;
     TechGlobalBasePage techGlobalBasePage;
     TechGlobalFrontendTestingHomePage techGlobalFrontendTestingHomePage;
     TechGlobalPaginationPage techGlobalPaginationPage;
     @Before
     public void setup(){
         driver = Driver.getDriver();
+        actions = new Actions(driver);
         techGlobalBasePage = new TechGlobalBasePage();
         techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
         techGlobalPaginationPage = new TechGlobalPaginationPage();
@@ -31,7 +34,7 @@ public class PaginationSteps {
     }
     @When("user moves to Practices header dropdown")
     public void userMovesToHeaderDropdown() {
-        techGlobalBasePage.headerDropdown.click();
+        actions.moveToElement(techGlobalBasePage.headerDropdown).perform();
     }
     @And("user clicks on Frontend Testing header dropdown option")
     public void userClicksOnHeaderDropdownOption() {

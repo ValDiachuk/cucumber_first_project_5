@@ -8,8 +8,13 @@ public class ConfigReader {
 
     static{
         try {
+            //open file
             FileInputStream fileInputStream = new FileInputStream("config.properties");
+
+            //load / read the content
             properties.load(fileInputStream);
+
+            //close
             fileInputStream.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
